@@ -1,0 +1,32 @@
+.section-main {
+  background-color: #dfdfdf;
+  height: 100vh;
+}
+.main-form {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    315deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 26, 121, 1) 51%,
+    rgba(64, 0, 131, 1) 100%
+  );
+  box-shadow: 10px 10px 50px -10px rgba(2, 0, 36, 0.71);
+  -webkit-box-shadow: 10px 10px 50px -10px rgba(2, 0, 36, 0.71);
+  -moz-box-shadow: 10px 10px 50px -10px rgba(2, 0, 36, 0.71);
+  height: 75vh;
+}
+.InputLabel {
+  color: #dfdfdf;
+}
+
+.InputText {
+  width: 50%;
+}
+.SubmitButton{
+  border-color: #dfdfdf;
+  color: #dfdfdf;
+  width: 25%;
+}
+#errorDiv{
+  display: none;
+}
